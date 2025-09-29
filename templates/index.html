@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandru's Portfolio</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  </head>
+
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">CHANDRU</a>
+        <ul class="nav-menu">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#services" class="nav-link">Service</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+    <!-- Header / Hero -->
+<header class="hero" id="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hello, I'm Chandru</h1>
+            <h2>I'm a 
+                <span class="txt-rotate" data-period="2000" data-rotate='[
+    "Full-Stack Developer.",
+    "Python Developer.",
+    "JavaScript Enthusiast.",
+    "MongoDB & Golang Developer.",
+    "AI & Automation Builder."
+]'>
+                    <span class="wrap"></span>
+                </span>
+            </h2>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+        <div class="hero-image">
+            <img src="\static\images\chandruoffice.jpg" alt="Profile" class="profile-img">
+        </div>
+    </div>
+</header>
+
+
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="about-container">
+        <div class="about-image">
+            <img src="\static\images\chandruoffice.jpg" alt="Chandru at work">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate software developer with experience in full-stack applications, RESTful APIs, and desktop utilities. I thrive on solving challenging problems, learning new technologies, and delivering efficient, scalable solutions.
+                I focus on integrating AI and machine learning into software development to build smarter applications. Additionally, I am expanding my expertise in DevOps, including CI/CD pipelines, cloud automation, and modern deployment practices.
+                My goal is to grow as a versatile developer who blends software engineering with intelligent automation.
+            </p>
+            <div class="btn-wrapper">
+                <a href="static/files/Chandru_CV.pdf" download class="btn1">
+                    Download CV
+                    <i class="fa fa-download" style="font-size:18px;color:#eaeaf0;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+  <h2>My Skills</h2>
+
+  <div class="card-container">
+
+    <!-- Python -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/python-removebg-preview.png" alt="Python">
+          <h3>Python</h3>
+          <div class="progress-bar"><span style="--level:90%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>Python</h3>
+          <p>Experienced in backend, automation, AI/ML, and data processing.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- Golang -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/golang-removebg-preview.png" alt="Golang">
+          <h3>Golang</h3>
+          <div class="progress-bar"><span style="--level:70%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>Golang</h3>
+          <p>Building scalable, high-performance backend services and microservices.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Java -->
+<!--<div class="skill-card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="/static/assets1/java-removebg-preview.png" alt="Java">
+      <h3>Java</h3>
+      <div class="progress-bar"><span style="width:70%"></span></div>
+    </div>
+    <div class="card-back">
+      <h3>Java</h3>
+<p>Developing robust backend services using Java and Spring Boot, implementing CRUD operations, RESTful APIs, and efficient database interactions.</p>
+
+    </div>
+  </div>
+</div>-->
+
+    <!-- Django -->
+<!--<div class="skill-card">
+  <div class="card-inner">
+    <div class="card-front">
+      <img src="/static/assets1/django-removebg-preview.png" style="width: 300px;" alt="Django">
+      <h3>Django</h3>
+      <div class="progress-bar"><span style="--level:75%"></span></div>
+    </div>
+    <div class="card-back">
+      <h3>Django</h3>
+      <p>Building robust web applications and RESTful APIs with Django, implementing CRUD operations, authentication, and database-driven solutions.</p>
+    </div>
+  </div>
+</div> -->
+
+
+    <!-- FastAPI -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/fastapi.png" alt="FastAPI">
+          <h3>FastAPI</h3>
+          <div class="progress-bar"><span style="--level:60%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>FastAPI</h3>
+          <p>Building fast REST APIs with async support and modern Python.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flask -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/flask-removebg-preview.png" alt="Flask">
+          <h3>Flask</h3>
+          <div class="progress-bar"><span style="--level:80%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>Flask</h3>
+          <p>Developing RESTful APIs and full-stack apps with lightweight Python framework.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- GIN -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/gin-removebg-preview.png" alt="GIN">
+          <h3>GIN</h3>
+          <div class="progress-bar"><span style="--level:75%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>GIN</h3>
+          <p>Working with the GIN web framework to build REST APIs in Go.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- HTML -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/html-removebg-preview.png" alt="HTML">
+          <h3>HTML</h3>
+          <div class="progress-bar"><span style="--level:95%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>HTML</h3>
+          <p>Crafting semantic and accessible web pages with structured HTML5.</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- CSS -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/css3-removebg-preview.png" alt="CSS">
+          <h3>CSS</h3>
+          <div class="progress-bar"><span style="--level:85%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>CSS</h3>
+          <p>Designing responsive, modern, and visually appealing interfaces.</p>
+        </div>
+      </div>
+    </div>
+
+        <!-- bootstrap -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/bootstrap-removebg-preview.png" alt="CSS">
+          <h3>Bootstrap</h3>
+          <div class="progress-bar"><span style="--level:75%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>Bootstrap</h3>
+          <p>Designing responsive, modern, and visually appealing interfaces.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/javascript-removebg-preview.png" alt="JavaScript">
+          <h3>JavaScript</h3>
+          <div class="progress-bar"><span style="--level:75%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>JavaScript</h3>
+          <p>Building interactive UIs, APIs, and dynamic client-side applications.</p>
+        </div>
+      </div>
+    </div>
+
+
+        <!-- ReactJS -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/reactjs.png" alt="ReactJS">
+          <h3>ReactJS</h3>
+          <div class="progress-bar"><span style="--level:80%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>ReactJS</h3>
+          <p>Developing reusable UI components and single-page applications.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MySQL -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/mysql-removebg-preview.png" alt="MySQL">
+          <h3>MySQL</h3>
+          <div class="progress-bar"><span style="--level:80%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>MySQL</h3>
+          <p>Designing relational databases, queries, and stored procedures.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MongoDB -->
+    <div class="skill-card">
+      <div class="card-inner">
+        <div class="card-front">
+          <img src="/static/assets1/mongodb-removebg-preview.png" alt="MongoDB">
+          <h3>MongoDB</h3>
+          <div class="progress-bar"><span style="--level:70%"></span></div>
+        </div>
+        <div class="card-back">
+          <h3>MongoDB</h3>
+          <p>Skilled in NoSQL databases, schema design, and aggregation pipelines.</p>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+
+<section class="education" id="education">
+  <h2>Education</h2>
+  <div class="edu-line-container">
+    <div class="edu-card floating">
+      <div class="edu-year">2020 - 2024</div>
+      <h3>Bachelor of Technology (B.Tech)</h3>
+      <span>CGPA: 8.9</span>
+      <p>Chirst College of Engineering and Technology, Major in Computer Science and Engineering, Pondicherry, India.</p>
+    </div>
+    
+    <div class="edu-card floating">
+      <div class="edu-year">2018 - 2020</div>
+      <h3>Higher Secondary Education 12<sup>th</sup></h3>
+      <p>Mutharaiyar Higher Secondary School, Pondicherry.</p>
+    </div>
+    <div class="edu-card floating">
+      <div class="edu-year">2018</div>
+      <h3>High School Education 10<sup>th</sup></h3>
+      <p>Aditya Vidyashram Residential School, Pondicherry.</p>
+    </div>
+
+
+
+    <div class="edu-card floating">
+      <div class="edu-year">2025</div>
+      <h3>Certifications</h3>
+      <p>Full-Stack Web Development .</p>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="project" id="projects">
+
+<div id="carousel-section">
+    
+<div id="loading-screen" role="status" aria-live="polite">
+  <div>
+    
+    <span style="font-size:2.2rem;color:var(--stellar-gold);font-family:var(--font-main);">Stellar Slide Navigator</span>
+    <div id="loading-progress" aria-label="Loading progress">
+      <div id="loading-bar"></div>
+    </div>
+    <span id="loading-text" style="margin-top:12px;font-size:1rem;color:#fff;">Loading assets...</span>
+  </div>
+</div>
+<!-- Starfield Background -->
+<canvas id="starfield" aria-hidden="true"></canvas>
+<!-- Particle System -->
+<canvas id="particles" aria-hidden="true"></canvas>
+<!-- Custom Cursor -->
+<div id="custom-cursor" aria-hidden="true"></div>
+<!-- Main Carousel Container -->
+<main id="carousel-container" tabindex="-1">
+  <div> <h2 style="margin-bottom: 50px;">Projects</h2></div>
+  <!-- Carousel -->
+  <section id="stellar-carousel" aria-label="Stellar Slide Carousel" tabindex="0"></section>
+  <!-- Controls and Navigation -->
+  <nav id="carousel-controls" aria-label="Carousel Controls">
+    <button  id="prev-btn" aria-label="Previous Slide" tabindex="0"></button>
+    <button  id="next-btn" aria-label="Next Slide" tabindex="0"></button>
+  </nav>
+  <nav id="dot-nav" aria-label="Slide Navigation"></nav>
+  <!-- Smart Controls -->
+  <div id="smart-controls" aria-label="Smart Controls">
+    <button class="smart-btn" id="autoplay-btn" aria-label="Toggle Auto-play">Auto-play</button>
+    <button class="smart-btn" id="shuffle-btn" aria-label="Shuffle Slides">Shuffle</button>
+   <!-- <button class="smart-btn" id="reset-btn" aria-label="Reset Carousel">Reset</button>-->
+    <select class="smart-btn" id="speed-select" aria-label="Animation Speed">
+      <option value="slow">Slow</option>
+      <option value="normal" selected>Normal</option>
+      <option value="fast">Fast</option>
+    </select>
+    <button id="theme-switcher" aria-label="Switch Theme">🌙</button>
+  </div>
+  <!-- Audio Controls -->
+ <!--<div id="audio-controls" aria-label="Audio Controls">
+    <button class="audio-btn" id="mute-btn" aria-label="Mute/Unmute">🔊</button>
+    <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.7" aria-label="Volume">
+  </div>-->
+ 
+  <!-- Performance Monitor -->
+  <!--<div id="perf-monitor" aria-live="polite" aria-atomic="true"></div>-->
+</main>
+<!-- Audio Elements -->
+<audio id="ambient-audio" loop preload="auto" aria-label="Ambient Space Soundtrack"></audio>
+<audio id="nav-sound" preload="auto" aria-label="Navigation Sound"></audio>
+</div>
+</section>
+
+    <!-- services Section -->
+<section class="service" id="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+<div class="service-card">
+    <img src="/static/assets1/service1.png" alt="Web & Mobile Development">
+    <h3>Web & Mobile Development</h3>
+    <p>Building responsive web applications with Flask, FastAPI, and Go, and cross-platform mobile apps using Flutter and modern JavaScript frameworks.</p>
+    <a href="#about" target="_blank" class="btn">Learn More</a>
+</div>
+
+<div class="service-card">
+    <img src="/static/assets1/service2.png" alt="Backend & Microservices">
+    <h3>Backend & Microservices</h3>
+    <p>Designing scalable APIs, microservices architectures, authentication systems, and database solutions using Python, Go, and MongoDB/MySQL for robust and efficient backends.</p>
+    <a href="#about" target="_blank" class="btn">Learn More</a>
+</div>
+
+<div class="service-card">
+    <img src="/static/assets1/service3.png" alt="AI & ML Solutions">
+    <h3>AI & ML Solutions</h3>
+    <p>Developing intelligent assistants, chatbots, and machine learning applications using cutting-edge AI models and frameworks for real-world problem solving.</p>
+    <a href="#about" target="_blank" class="btn">Learn More</a>
+</div>
+</section>
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+<section class="contact" id="contact" >
+     <h2>Contact Me</h2>
+    <div class="form-container">
+       
+<div class="form-left">
+    <div class="contact-card" >
+       <div> <h4><i class="fas fa-phone"></i> PHONE</h4></div>
+        <div><p>(+91) 9361647762</p></div>
+    </div>
+
+    <div class="contact-card" id="emailCard">
+        <h4><i class="fas fa-envelope"></i> E-MAIL</h4>
+        <p>chandru2002mck@gmail.com</p>
+        <svg class="lightningSVG"></svg>
+    </div>
+
+    <div class="contact-card" id="location-card">
+        <h4><i class="fas fa-map-marker-alt"></i> LOCATION</h4>
+        <p>Pondicherry</p>
+    </div>
+</div>
+
+
+
+        <form id="contactForm" class="form-right">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+
+</section>
+
+
+
+
+<div ontouchstart="" class="wrapper">
+
+    <!-- Main content (if needed) -->
+    <main>
+        <!-- Painting background -->
+        <div id="overflow"></div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="demo">
+      
+  <div class="footer-container">
+
+    <!-- About Section -->
+    <div class="footer-section-about">
+      <h4>About</h4>
+      <p>I am a highly skilled software engineer with experience in developing and maintaining software applications, especially Android Apps.</p>
+    </div>
+
+    <!-- Links Section -->
+     <div class="foot-twocol">
+    <div class="footer-section links">
+      <h4>Links</h4>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#about">Resume</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Services Section -->
+    <div class="footer-section services">
+      <h4>Services</h4>
+      <ul>
+        <li>Full-Stack Web Development</li>
+        <li>Scripting & automation</li>
+         <li>Mobile App Development (Android & iOS)</li>
+         <li>Desktop Application Development</li>
+         <li>3D Modeling & Visualization</li>
+
+        <li>UI/UX Design  & Prototyping</li>
+      </ul>
+    </div>
+        <div class="footer-section interest">
+      <h4>Interests</h4>
+      <ul>
+         <li>Artificial Intelligence  (AI/ML)</li>
+         <li>Generative AI & Automation</li>
+         <li>Software Testing & Deployment Tools</li>
+         <li>Cloud Computing (AWS & Multi-Cloud)</li>
+         <li> VR & AR</li>
+    <li>Hardware Troubleshooting</li>
+   
+      </ul>
+    </div>
+</div>
+    <!-- Contact Section -->
+    <div class="footer-section-contact">
+      <h4>Have a Questions?</h4>
+      <p>10, Vinayagar kovil Street, dharmaprui, Puducherry, India.</p>
+      <p>+91 9361647762</p>
+      <p>chandru2002mck@gmail.com</p>
+
+      <!-- Social Icons -->
+
+    </div>
+
+  </div>
+       
+        <div class="center">
+            <span class="follow">Follow me: <span id="socialName"></span></span>
+
+            <div class="social-buttons">
+              <!-- linkedin -->
+<a href="https://www.linkedin.com/in/chandrum222/" class="scene" data-social="linkedin">
+  <div class="cube">
+      <span class="icon icon-front linkedin"><i class="fab fa-linkedin"></i></span>
+      <span class="icon icon-back"><i class="fas fa-external-link-alt"></i></span>
+  </div>
+</a>
+<!-- GitHub -->
+<a href="https://github.com/chandru-mck-2002" class="scene" data-social="github">
+    <div class="cube">
+        <span class="icon icon-front github"><i class="fab fa-github"></i></span>
+        <span class="icon icon-back"><i class="fas fa-external-link-alt"></i></span>
+    </div>
+</a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/yourusername" class="scene" data-social="Instagram">
+                    <div class="cube">
+                        <span class="icon icon-front instagram"><i class="fab fa-instagram"></i></span>
+                        <span class="icon icon-back"><i class="fas fa-external-link-alt"></i></span>
+                    </div>
+                </a>
+
+            </div>
+            
+
+
+        </div>
+
+        <hr>
+         <p style="margin-top: 15px;text-align: left;">&copy; 2025 Chandru. All rights reserved.</p>
+        </div>
+                
+
+    </footer>
+
+</div>
+
+    
+    <script src="static/js/main.js"></script>
+
+</body>
+</html>
